@@ -1,0 +1,139 @@
+body{
+    background-color: #F3F5FC;
+    width: 1400px;
+    height: 1000px;
+}
+.container img{
+    margin: 30px 80px;
+   
+}
+.container{
+    width: 100px;
+    display: inline-block;
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.digitar-texto{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.digitar-texto #texto-digitar{
+    background-color: #F3F5FC;
+    border-color: #F3F5FC;
+    height: 600px;
+    width: 700px;
+    color: #0A3871;
+    font-size: 30px;
+}
+.digitar-texto #texto-digitar:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.digitar-texto #texto-digitar::placeholder{
+    color: #0A3871;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.digitar-texto .requisitos img{
+    width: 13px;
+}
+.digitar-texto .requisitos p{
+    font-size: 12px;
+}
+.digitar-texto .requisitos img, p{
+    display: inline-block;
+    margin-top: 30px;
+}
+.botoes{
+    margin-top: 20px;
+}
+.botoes #botao-cripto{
+    color: #FFFFFF;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 58px;
+    font-size: 15px;
+    margin-right: 4%;
+    
+}
+.botoes #botao-descripto{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 58px;
+    font-size: 15px;
+}
+.saida-texto{
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    margin-top: -70px;
+    width: 400px;
+    height: 860px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+.saida-texto .retorno-texto{
+    margin-top: 40px;
+    width: 330px;
+    height: 700px;
+    color: #0A3871;
+    font-size: 30px;
+    text-align: center;
+    display: none;
+
+}
+.saida-texto button{
+    margin-top: 30px;
+    color: #0A3871;
+    background-color: white;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 58px;
+    font-size: 15px;
+    margin-left: 64px;
+    display: none;
+
+}
+
+.saida-texto img{
+    margin-top: 50%;
+    margin-left: 47px;
+    width: 75%;
+}
+.saida-texto h2{
+    font-size: 27px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.saida-texto .mensagem-informativa{
+    width: 400px;
+    font-size: 18px;
+    margin: 5px 45px 0;
+    text-align: center;
+    width: 300px;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+}
