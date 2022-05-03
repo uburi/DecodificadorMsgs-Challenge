@@ -1,7 +1,8 @@
 body{
     background-color: #F3F5FC;
-    width: 1400px;
-    height: 1000px;
+    width: 1200px;
+    height: 790px;
+    font-family: 'Montserrat', sans-serif;
 }
 .container img{
     margin: 30px 80px;
@@ -12,7 +13,8 @@ body{
     display: inline-block;
 }
 main{
-    width: 800px;
+    width: 950px;
+    height: 790px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -135,5 +137,62 @@ button:hover{
     cursor: pointer;
 }
 footer{
-    background-color: black;
+   text-align: center;
+   width: auto;
+   height: 30px;
+}
+@media screen and (max-width: 480px){
+ 
+    body, .container{
+        width: auto;
+        height: auto;
+    }
+    main{
+        width: 260px;
+        margin: 0 auto;
+        height: 800px;
+    }
+    .container img{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .digitar-texto #texto-digitar{
+        display: block;
+        width: 320px;
+        height: 350px;
+    }
+    .retorno-texto{
+        width: 320px;
+        height: 180px;
+    }
+    .saida-texto{
+        display: block;
+        width: 280px;
+        height: 180px;
+        margin-top: 10px;
+    }
+    .saida-texto img{
+        display: none;
+    }
+    #botao-cripto{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .saida-texto h2{
+        margin-top: 44px;  
+        font-size: 20px; 
+    }
+    .saida-texto .mensagem-informativa{
+        margin: 0 auto;
+        height: 50px;
+        font-size: 12px;
+    }
+    .saida-texto button{
+        margin: 0 auto;
+        margin-top: -130px;
+    }
+    button{
+        height: 200px;
+    }
+
 }
